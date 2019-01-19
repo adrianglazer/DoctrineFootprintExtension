@@ -1,9 +1,9 @@
 {
-    "name": "adrianglazer/DoctrineFootprintExtension",
+    "name": "adrianglazer/doctrine-footprint-extension",
     "type": "symfony-bundle",
     "description": "This extension provides timestamps and user actions tracking for entity create, update and delete.",
     "keywords": [ "doctrine", "footprint", "timestamp" ],
-    "homepage": "https://github.com/adrianglazer/DoctrineFootprintExtension",
+    "homepage": "https://github.com/adrianglazer/doctrine-footprint-extension",
     "license": "MIT",
     "authors": [
         {
