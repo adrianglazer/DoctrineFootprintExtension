@@ -19,7 +19,7 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-4": { "Glazer\\DoctrineFootprintExtension\\": "" }
+        "psr-4": { "Glazer\\DoctrineFootprintExtension\\": "src/" }
     },
     "extra": {
         "symfony": {
