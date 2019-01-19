@@ -1,0 +1,30 @@
+{
+    "name": "adrianglazer/DoctrineFootprintExtension",
+    "type": "symfony-bundle",
+    "description": "This extension provides timestamps and user actions tracking for entity create, update and delete.",
+    "keywords": [ "doctrine", "footprint", "timestamp" ],
+    "homepage": "https://github.com/adrianglazer/DoctrineFootprintExtension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Glazer",
+            "email": "adrian.glazer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "doctrine/orm": "^2.6",
+        "symfony/security-core": "^4.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "Glazer\\DoctrineFootprintExtension\\": "" }
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "4.2.*"
+        }
+    }
+}
