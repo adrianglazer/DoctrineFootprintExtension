@@ -42,24 +42,24 @@ trait FootprintTrait
      */
     protected $deletedBy;
 
-    public function setCreatedAt(\DateTime $createdAt): self
+    public function setCreatedAt(?\DateTime $createdAt): self
     {
         $this->createdAt = $createdAt;
 
         return $this;
     }
 
-    public function getCreatedAt(): \DateTime
+    public function getCreatedAt(): ?\DateTime
     {
         return $this->createdAt;
     }
 
-    public function getCreatedBy(): string
+    public function getCreatedBy(): ?string
     {
         return $this->createdBy;
     }
 
-    public function setCreatedBy(string $createdBy): self
+    public function setCreatedBy(?string $createdBy): self
     {
         $this->createdBy = $createdBy;
         return $this;
@@ -72,17 +72,17 @@ trait FootprintTrait
         return $this;
     }
 
-    public function getUpdatedAt(): \DateTime
+    public function getUpdatedAt(): ?\DateTime
     {
         return $this->updatedAt;
     }
 
-    public function getUpdatedBy(): string
+    public function getUpdatedBy(): ?string
     {
         return $this->updatedBy;
     }
 
-    public function setUpdatedBy(string $updatedBy): self
+    public function setUpdatedBy(?string $updatedBy): self
     {
         $this->updatedBy = $updatedBy;
         return $this;
@@ -95,7 +95,7 @@ trait FootprintTrait
         return $this;
     }
 
-    public function getDeletedAt(): \DateTime
+    public function getDeletedAt(): ?\DateTime
     {
         return $this->deletedAt;
     }
@@ -105,12 +105,12 @@ trait FootprintTrait
         return $this->deletedAt !== null;
     }
 
-    public function getDeletedBy(): string
+    public function getDeletedBy(): ?string
     {
         return $this->deletedBy;
     }
 
-    public function setDeletedBy(string $deletedBy): self
+    public function setDeletedBy(?string $deletedBy): self
     {
         $this->deletedBy = $deletedBy;
         return $this;
